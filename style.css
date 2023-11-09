@@ -56,3 +56,64 @@ a {
 a:hover {
     color: #ff3333;
 }
+
+#clue-button {
+  background-color: #333;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#clue-button:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+
+#restart-button {
+  background-color: #333;
+  color: #ff6600;
+  border: 2px solid #ff6600;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#restart-button:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.hint {
+    color: #0077b6; 
+    background-color: #caf0f8; 
+    padding: 10px;
+    border: 2px solid #90e0ef; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
